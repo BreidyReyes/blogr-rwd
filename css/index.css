@@ -1,0 +1,21 @@
+body {
+    background-color: pink;
+}
+
+.header {
+    background-color: brown;
+}
+@media (min-width: 167px) {
+    .header {
+        background-color: orange;
+    }
+}
+@media (min-width: 268px) {
+    .header {
+        background-color: brown;
+    }
+}
+
+.footer {
+    background-color: brown;
+}
