@@ -1,11 +1,8 @@
+html {
+    font-size: 62.5%;                    /** 16rem *0.625 = 10px conversion en base 10*/
+}
+
 body {
     background-color: pink;
-}
-
-.header {
-    background-color: brown;
-}
-
-.footer {
-    background-color: brown;
+    font-size: 1.4rem;                /**14px; */
 }
