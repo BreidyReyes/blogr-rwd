@@ -41,6 +41,33 @@ body {
 .navbar__right {
     display: none;
 }
+.navbar__center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.menu-main {
+    display: none;
+}
+.menu-authemtication {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.menu-item.link.link.link-3 {
+    display: none;
+}
+.btn {
+    border: 1px solid blue;
+    padding: .6rem 1.2rem;
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+    text-decoration: none;
+}
 
 /** Main */
 .main {
@@ -83,6 +110,17 @@ body {
     }
     .navbar__right {
         display: block;
+    }
+    .menu-main {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+    }
+    .icon-hamburguer {
+        display: none;
     }
 }
 @media ( min-width: 992px ) {
